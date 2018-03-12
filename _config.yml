@@ -1,0 +1,22 @@
+#
+# _config.yml for www.sandcastle.zone
+#
+
+exclude: [ "CNAME", "README.md", "LICENSE.txt", "UNLICENSE.txt", "tmp", "*.sh", "**/*_src*" ]
+permalink: /blog/:year/:month/:day/:title/index.:output_ext
+production_url: https://www.sandcastle.zone/
+title: Sand Castle Zone
+markdown: kramdown
+plugins:
+  - jekyll-redirect-from
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+
+google_analytics_id: LATER
+google_validation: yE4nsRE5eUYG_Ahhgh-UuM4mA4pakFdTF2jR-xj9WXo
+bing_validation: E90DBA4A9D3D37F1056E64E5604A7A0D
+yandex_validation: LATER
